@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Generic",
+            "includePath": [
+                "${workspaceFolder}/main/**",
+                "${workspaceFolder}/build/include/",
+                "${env.HOME}/esp/esp-idf/components/**",
+                "${env.HOME}/esp/esp-idf-lib/components/**"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "intelliSenseMode": "gcc-x64",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json",
+            "configurationProvider": "go2sh.cmake-integration"
+        }
+    ],
+    "version": 4
+}
